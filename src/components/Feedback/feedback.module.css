@@ -1,0 +1,21 @@
+.buttonsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.feedbackButtons {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(209, 209, 209);
+  border: 1px solid #4b4a4a;
+  border-radius: 5px;
+  padding: 5px;
+  transition: color 300ms ease, background-color 300ms ease;
+}
+
+.feedbackButtons:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}
